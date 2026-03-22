@@ -1,5 +1,6 @@
 # Build artifacts
 app/build/
+*.zip
 
 # Local configuration
 app/local.mk
