@@ -4,6 +4,12 @@ Pinpoint is a lightweight macOS utility that helps you find your mouse cursor by
 
 ![Pinpoint Icon](assets/icon.png)
 
+## Demos
+
+| Searchlight Style | Stagelight Style |
+| :---: | :---: |
+| ![Searchlight Demo](assets/demo_searchlight.gif) | ![Stagelight Demo](assets/demo_stagelight.gif) |
+
 ## Features
 
 - **Quick Highlight**: Instantly find your cursor by tapping a modifier key (e.g., Left Control) multiple times.
