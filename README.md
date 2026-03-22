@@ -1,8 +1,6 @@
-# Pinpoint (P!nPo!nt)
+# P!nPo!nt
 
-Pinpoint is a lightweight macOS utility that helps you find your mouse cursor by highlighting it with a "spotlight" effect. 
-
-![Pinpoint Icon](assets/icon.png)
+P!nPo!nt is a lightweight macOS utility that helps you find your mouse cursor by highlighting it with a "spotlight" effect. 
 
 ## Demos
 
