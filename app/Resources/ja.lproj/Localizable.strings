@@ -1,0 +1,13 @@
+"Settings" = "設定";
+"ModifierKey" = "修飾キー";
+"TapCount" = "連続タップ回数";
+"TapFormat" = "%d回";
+"PinpointSize" = "%@の大きさ";
+"SizeSmall" = "小";
+"SizeLarge" = "大";
+"AnimationStyle" = "アニメーション";
+"AnimSearchlight" = "サーチライト";
+"AnimStagelight" = "ステージライト";
+"StartAtLogin" = "ログイン時に自動起動";
+"TestPinpoint" = "%@をテスト";
+"QuitApp" = "P!nPo!nt を終了";

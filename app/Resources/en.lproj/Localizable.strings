@@ -1,0 +1,13 @@
+"Settings" = "Settings";
+"ModifierKey" = "Modifier Key";
+"TapCount" = "Tap Count";
+"TapFormat" = "%d Taps";
+"PinpointSize" = "%@ Size";
+"SizeSmall" = "Small";
+"SizeLarge" = "Large";
+"AnimationStyle" = "Animation Style";
+"AnimSearchlight" = "Searchlight";
+"AnimStagelight" = "Stage Light";
+"StartAtLogin" = "Start at Login";
+"TestPinpoint" = "Test %@";
+"QuitApp" = "Quit P!nPo!nt";
