@@ -13,6 +13,8 @@ RESOURCES_DIR = $(CONTENTS_DIR)/Resources
 VERSION = 1.0.0
 BUILD = 1
 
+RELEASE_ZIP = Pinpoint_v$(VERSION).zip
+
 SWIFT_FILES = $(wildcard $(SRC_DIR)/*.swift)
 SWIFTC = swiftc
 SWIFTC_FLAGS = -O -parse-as-library
@@ -44,11 +46,18 @@ $(APP_BUNDLE): $(SWIFT_FILES) Info.plist
 	fi
 	@echo "Build complete: $(DISPLAY_BUNDLE) (v$(VERSION) build $(BUILD))"
 
+release: all
+	@rm -f $(RELEASE_ZIP)
+	@zip -r $(RELEASE_ZIP) '$(DISPLAY_BUNDLE)'
+	@echo "Release package created: $(RELEASE_ZIP)"
+
 clean:
 	rm -rf $(OUT_DIR)
+	rm -f *.zip
 
 help:
 	@echo "Usage:"
 	@echo "  make                Build the app (v$(VERSION) build $(BUILD))"
+	@echo "  make release        Build and create a ZIP package for distribution"
 	@echo "  make SIGN_IDENTITY= Build with a specific identity"
 	@echo "  make clean          Remove build artifacts"
